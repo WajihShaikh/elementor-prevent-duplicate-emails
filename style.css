@@ -1,0 +1,24 @@
+/* * Elementor Form Inline Error Layout Fix
+ * Prevents custom field validation errors from stretching the parent container.
+ */
+
+/* Ensure the parent container is the anchor point */
+.elementor-field-group {
+    position: relative !important;
+}
+
+/* Pull the inline error out of the layout flow and float it below the field */
+.elementor-message.elementor-help-inline {
+    position: absolute !important;
+    top: 100%; 
+    left: 0;
+    margin-top: 6px; 
+    font-size: 12px; 
+    line-height: 1.2;
+    padding: 0 !important;
+}
+
+/* Optional: Hide the global generic form error if needed */
+.elementor-message.elementor-message-danger:not(.elementor-help-inline) {
+    display: none !important;
+}
