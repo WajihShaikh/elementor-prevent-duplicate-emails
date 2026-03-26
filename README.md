@@ -112,16 +112,3 @@ WordPress
 
 Elementor Pro (Requires the native Submissions feature enabled)
 
-
----
-
-### How to upload this to GitHub quickly:
-1. Go to your GitHub account and click **New Repository**.
-2. Name it something like `elementor-unique-email-validator`.
-3. Check the box that says **"Add a README file"**, then click **Create Repository**.
-4. Click the **"Add file"** button > **"Create new file"**.
-5. Name the first file `elementor-email-restriction.php`, paste the PHP code, and click **Commit changes**.
-6. Repeat step 4 and 5 for the `style.css` file.
-7. Finally, click the pencil icon next to your `README.md` file, replace whatever is there with the Markdown code above, and click **Commit changes**.
-
-Would you like me to add comments to the PHP code explaining how a developer could e
