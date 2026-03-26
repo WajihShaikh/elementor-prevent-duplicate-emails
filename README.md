@@ -41,12 +41,6 @@ add_filter('elementor_unique_email_validator_message', function($message){
 });
 ```
 
-## Screenshots
-
-1. Elementor form with validation message (placeholder)
-
-> Tip: Add a screenshot named `screenshot-1.png` to the plugin root to show on WordPress.org.
-
 ## Frequently Asked Questions
 
 - **Will this block existing WordPress users?**
